@@ -38,7 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     
-    'portfoilo.apps.PortfoiloCobfig',
+    'rest_framework',
+    'portfoilo.apps.PortfoiloConfig',
 ]
 
 MIDDLEWARE = [
